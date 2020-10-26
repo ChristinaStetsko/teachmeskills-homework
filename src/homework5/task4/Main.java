@@ -9,15 +9,7 @@ public class Main {
 
         try {
             car1.start();
-        } catch (CarNotStartException e) {
-            e.printStackTrace();
-        }
-        try {
             car2.start();
-        } catch (CarNotStartException e) {
-            e.printStackTrace();
-        }
-        try {
             car3.start();
         } catch (CarNotStartException e) {
             e.printStackTrace();

@@ -1,10 +1,10 @@
 package homework5.task4;
 
 public class Car {
-    String brand;
-    int speed;
-    int price;
-    int random = (int) (Math.random() * 20);
+    private String brand;
+    private int speed;
+    private int price;
+    private int random = (int) (Math.random() * 20);
 
     public Car(String brand, int speed, int price) {
         this.brand = brand;
