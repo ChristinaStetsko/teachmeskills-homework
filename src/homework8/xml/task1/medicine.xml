@@ -1,0 +1,10 @@
+<?medicine.xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<company>
+    <company_name>Hospital #6</company_name>
+    <employees>
+        <employee first_name="John" last_name="Carmack" position="doctor" department="infectious" experience="7"/>
+        <employee first_name="Marie" last_name="Curie" position="nurse" department="surgery" experience="12"/>
+        <employee first_name="Donald" last_name="Knuth" position="nurse" department="infectious" experience="5"/>
+        <employee first_name="Elizabeth" last_name="Blackburn" position="doctor" department="infectious" experience="10"/>
+    </employees>
+</company>
