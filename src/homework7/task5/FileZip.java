@@ -25,11 +25,11 @@ public class FileZip {
     }
 
     private static void dileteDir(File newDir) {
-        File dir_delete = new File("/home/christina/tmp/task5_renamed");  //D:\Tmp\task5_renamed
+        File dirDelete = new File("/home/christina/tmp/task5_renamed");  //D:\Tmp\task5_renamed
         for (File item : newDir.listFiles()) {
             item.delete();
         }
-        dir_delete.delete();
+        dirDelete.delete();
         System.out.println("Directory task5_renamed was deleted");
     }
 
