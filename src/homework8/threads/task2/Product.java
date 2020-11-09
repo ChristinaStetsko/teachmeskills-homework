@@ -5,8 +5,7 @@ public enum Product {
     ITEM2 ("Колбаска"),
     ITEM3 ("Чипсики"),
     ITEM4 ("Кола"),
-    ITEM5 ("Мыло"),
-    ITEM6 ("Верёвка");
+    ITEM5 ("Мыло");
 
     private String description;
 
